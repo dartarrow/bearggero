@@ -55,7 +55,7 @@ sticky
 ===========
 Plugins
 ===========
-We have enabled We have enabled blockParser, BBcode, adminArea, categories, Jquery, locker, QuickSpamFilter, BearggerroReadmore.
+We have enabled blockParser, BBcode, adminArea, categories, Jquery, locker, QuickSpamFilter, BearggerroReadmore.
   BearggeroReadmore
     This is a plugin that we have created for styling the ReadMore links. Please also download this plugin                  (https://github.com/dronious/bearggero-readmore) and put it in the plugins directory and enable it in the plugins        admin panel.
 
