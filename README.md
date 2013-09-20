@@ -8,13 +8,13 @@ Compatibility
 This theme works with all major browsers that support HTML 5. IE9+, Firefox, Opera, Chrome, and also works well with mobile browsers. IFrames(YouTube, vimeo, etc) are not supported by the iPhone browser so they will not show up on an iphone.
 
 
-First we removed the admin link on the page because it didn’t look very nice. To access the page simply append admin.php to the URL in the navigation bar so http://localhost:8000/flatpress/ would become http://localhost:8000/flatpress/admin.php
+First we removed the admin link on the page because it didn’t look very nice. To access the page simply append admin.php to the URL in the navigation bar so example.com/flatpress/ would become example.com/flatpress/admin.php
 Note: The theme actually modifies the admin panel as well, enlarging the panel and fonts. 
 
 ==========
 Entries
 ==========
-When adding a High definition Image use the[html]<img class=’hdImg’ src=’fp-content/images/img.png’>  [/html]  to utilize the CSS styling for images of class ‘hdImg’ which scales the width to fill the container and the height in the same ratio.
+When adding a High definition Image use the "[html]<img class=’hdImg’ src=’fp-content/images/img.png’>  [/html] "  to utilize the CSS styling for images of class ‘hdImg’ which scales the width to fill the container and the height in the same ratio.
 
 Iframes are styled by the element so it will always fill the entry unless strictly stylized.
 
@@ -57,7 +57,7 @@ Plugins
 ===========
 We have enabled We have enabled blockParser, BBcode, adminArea, categories, Jquery, locker, QuickSpamFilter, BearggerroReadmore.
   BearggeroReadmore
-    This is a plugin that we have created for styling the ReadMore links. Please also download this plugin                  (https://github.com/dronious/bearggero-readmore)and put it in the plugins directory and enable it in the plugins        admin panel.
+    This is a plugin that we have created for styling the ReadMore links. Please also download this plugin                  (https://github.com/dronious/bearggero-readmore) and put it in the plugins directory and enable it in the plugins        admin panel.
 
   
   
