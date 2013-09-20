@@ -14,7 +14,7 @@ Note: The theme actually modifies the admin panel as well, enlarging the panel a
 ==========
 Entries
 ==========
-When adding a High definition Image use the [html] &lt img class=’hdImg’ src=’fp-content/images/img.png’ &gt  [/html] "  to utilize the CSS styling for images of class ‘hdImg’ which scales the width to fill the container and the height in the same ratio.
+When adding a High definition Image use the [html] &lt; img class=’hdImg’ src=’fp-content/images/img.png’ &gt;  [/html] "  to utilize the CSS styling for images of class ‘hdImg’ which scales the width to fill the container and the height in the same ratio.
 
 Iframes are styled by the element so it will always fill the entry unless strictly stylized.
 
