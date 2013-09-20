@@ -1,9 +1,10 @@
 <?php
 /*  
 Theme Name:Bearggero 
-Theme URI: http://www.flatpress.org/
-Description: Inspired by leggero. Larger fonts, focus on separation in blog entries, and anchored sytlized dynamic menus.
-Version: 0.800
+Theme URI://github.com/dartarrow/bearggero
+Description:A new theme focused on contextual separation, readability and a nice colour pallete. Also works well on mobile devices.
+: 
+Version: 1.0
 Author: Darren Guinness & Alvin Jude
 Author URI: http://www.flatpress.org/
 */
@@ -15,7 +16,7 @@ Author URI: http://www.flatpress.org/
 	$theme['description'] = 'New Theme inspired by the classic leggero style';
 	
 	
-	$theme['version'] = 0.800;
+	$theme['version'] = 1.0;
 		
 	$theme['style_def'] = 'style.css';
 	$theme['style_admin'] = 'admin.css';

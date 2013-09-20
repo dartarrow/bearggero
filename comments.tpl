@@ -8,7 +8,8 @@
 		<ol id="comments">
 		{comment}
 			<li id="{$id}" {$loggedin|notempty:"class=\"comment-admin\""}>
-				
+			<div id="commentHeader">	
+                <div class='commentName'>
 				<strong class='comment-name'>
 				{* 
 					using this tag combo, the name is displayed as a link only
@@ -21,13 +22,14 @@
 				*}
 				{$url|notempty:"<a href=\"$url\" title=\"Permalink to $name's comment\">$name</a>"|default:$name}
 				</strong>
-				
-				{include file=shared:commentadminctrls.tpl} {* this shows edit/delete links*}
+				</div>
 				
 				<p class="date">
-				<a href="{$entryid|link:comments_link}#{$id}">{$date|date_format:"%A, %B %e, %Y - %H:%M:%S"}</a>
+				<a href="{$entryid|link:comments_link}#{$id}">{$date|date_format:"%b %d, %Y - %H:%M:%S"}</a>
 				</p>
-				
+				</div>
+
+				{include file=shared:commentadminctrls.tpl} {* this shows edit/delete links*}
 				{$content|tag:comment_text}
 				
 			</li>

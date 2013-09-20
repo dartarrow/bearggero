@@ -9,6 +9,9 @@ Name: Leggero
 Author: NoWhereMan & drudo
 Version: 0.1
 Module: style.css
+
+Modified for Beargerro
+by darreng and dartarrow
 */
 
 
@@ -21,7 +24,9 @@ Module: style.css
 @import url(column.css);
 
 #comments li.comment-admin {
-	padding:1em
+	/*padding:1em*/
+    border: 3px solid #41aa76; 
+
 }
 
 #comments li.comment-admin strong.comment-name { font-size:140% }
